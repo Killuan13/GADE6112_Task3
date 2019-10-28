@@ -1,0 +1,122 @@
+﻿namespace GADE_POE
+{
+    partial class frmRTS
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
+            this.lblMap = new System.Windows.Forms.Label();
+            this.lblRound = new System.Windows.Forms.Label();
+            this.cmbStats = new System.Windows.Forms.ComboBox();
+            this.btnSaveandRead = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(519, 157);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            // 
+            // btnPause
+            // 
+            this.btnPause.Location = new System.Drawing.Point(648, 157);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(75, 23);
+            this.btnPause.TabIndex = 1;
+            this.btnPause.Text = "Pause";
+            this.btnPause.UseVisualStyleBackColor = true;
+            // 
+            // lblMap
+            // 
+            this.lblMap.AutoSize = true;
+            this.lblMap.Location = new System.Drawing.Point(118, 157);
+            this.lblMap.Name = "lblMap";
+            this.lblMap.Size = new System.Drawing.Size(30, 13);
+            this.lblMap.TabIndex = 2;
+            this.lblMap.Text = "MAP";
+            // 
+            // lblRound
+            // 
+            this.lblRound.AutoSize = true;
+            this.lblRound.Location = new System.Drawing.Point(594, 47);
+            this.lblRound.Name = "lblRound";
+            this.lblRound.Size = new System.Drawing.Size(42, 13);
+            this.lblRound.TabIndex = 3;
+            this.lblRound.Text = "Round ";
+            // 
+            // cmbStats
+            // 
+            this.cmbStats.FormattingEnabled = true;
+            this.cmbStats.Location = new System.Drawing.Point(565, 341);
+            this.cmbStats.Name = "cmbStats";
+            this.cmbStats.Size = new System.Drawing.Size(121, 21);
+            this.cmbStats.TabIndex = 4;
+            // 
+            // btnSaveandRead
+            // 
+            this.btnSaveandRead.Location = new System.Drawing.Point(565, 259);
+            this.btnSaveandRead.Name = "btnSaveandRead";
+            this.btnSaveandRead.Size = new System.Drawing.Size(121, 23);
+            this.btnSaveandRead.TabIndex = 5;
+            this.btnSaveandRead.Text = "Save and Read";
+            this.btnSaveandRead.UseVisualStyleBackColor = true;
+            this.btnSaveandRead.Click += new System.EventHandler(this.btnSaveandRead_Click);
+            // 
+            // frmRTS
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSaveandRead);
+            this.Controls.Add(this.cmbStats);
+            this.Controls.Add(this.lblRound);
+            this.Controls.Add(this.lblMap);
+            this.Controls.Add(this.btnPause);
+            this.Controls.Add(this.btnStart);
+            this.Name = "frmRTS";
+            this.Text = "Real Time Strategy (RTS)";
+            this.Load += new System.EventHandler(this.frmRTS_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Label lblMap;
+        private System.Windows.Forms.Label lblRound;
+        private System.Windows.Forms.ComboBox cmbStats;
+        private System.Windows.Forms.Button btnSaveandRead;
+    }
+}
+
